@@ -32,11 +32,18 @@
     </p>
 
     <form id="survey-form">
-
+      <label id="name-label">Your name</label>
       <input type="text" id="name"><br>
+      <label id="email-label">Your E-mail</label>
       <input type="email" id="email"><br>
-      <input type="number" id="number"><br>
-
+      <label id="number-label">Your number</label>
+      <input type="number" id="number" min="1" max="11"><br>
+      <select id="dropdown">
+        <option value="10mbps">10 mbps</option>
+        <option value="11mbps">11 mbps</option>
+        <option value="12mbps">12 mbps</option>
+        <option value="13mbps">13 mbps</option>
+      </select>
     </form>
 
     <script  src="js/index.js"></script>
